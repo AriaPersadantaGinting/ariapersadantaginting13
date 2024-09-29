@@ -140,7 +140,7 @@ const ContactSection2 = () => {
                 SEND ME MESSAGE
               </motion.button>
               <img
-                src="/src/assets/email2.svg"
+                src="/public/email2.svg"
                 alt="phone"
                 className="lg:w-5 lg:h-5 lg:ml-2 lg:mt-[7px] md:w-5 md:h-5 md:ml-2 md:mt-[7px] sm:w-5 sm:h-5 sm:ml-2 sm:mt-[7px] w-5 h-5 ml-2 mt-[7px]" // Adjust size as needed
               />{" "}

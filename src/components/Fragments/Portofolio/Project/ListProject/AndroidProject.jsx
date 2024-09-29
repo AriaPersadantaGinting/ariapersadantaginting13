@@ -66,7 +66,7 @@ const AndroidProject = () => {
 
       <div className="w-full flex justify-center">
         <img
-          src="/public/assets/arrow.jpg"
+          src="/public/arrow.jpg"
           className="lg:w-16 lg:h-16 md:w-20 md:h-20 sm:w-20 sm:h-20 w-20 h-20 rounded-full"
           alt=""
         />
@@ -85,9 +85,7 @@ const AndroidProject = () => {
           >
             {/* Gambar akan dipilih berdasarkan indeks */}
             <img
-              src={`/public/assets/${
-                imageLabels[index % imageLabels.length]
-              }.jpg`}
+              src={`/public/${imageLabels[index % imageLabels.length]}.jpg`}
               className={`lg:w-[29vw] lg: lg:h-[25vw] md:w-[42vw] md:mx-[1.4rem] sm:w-[84vw] sm:mx-[1.4rem] w-[90vw] mx-1   rounded-xl transform transition-transform duration-1000 ${
                 isHovered === project.id
                   ? "scale-110 opacity-75 blur-sm rounded-xl"

@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import igIcon from "/public/assets/ig.svg";
-import ytIcon from "/public/assets/yt.svg";
-import tiktokIcon from "/public/assets/tiktok.svg";
-import fbIcon from "/public/assets/fb.svg";
+import igIcon from "/public/ig.svg";
+import ytIcon from "/public/yt.svg";
+import tiktokIcon from "/public/tiktok.svg";
+import fbIcon from "/public/fb.svg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 

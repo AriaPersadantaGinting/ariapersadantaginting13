@@ -58,7 +58,7 @@ const AboutSection2 = () => {
       <section className="flex flex-wrap pb-28 mb-24 overflow-hidden">
         <div className="lg:ml-[6vw] lg:mr-20 md:ml-[14vw] md:mr-20 md:mb-2 sm:ml-[14vw] sm:mr-20 sm:mb-2 mx-4  mb-4">
           <motion.img
-            src="/public/assets/bg32.jpg"
+            src="/public/bg32.jpg"
             initial={isMobile ? "initial1" : ""}
             whileInView={isMobile ? "animate1" : ""}
             variants={variants}

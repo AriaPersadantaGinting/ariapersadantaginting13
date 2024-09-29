@@ -1,15 +1,15 @@
 import Marquee from "react-fast-marquee";
-import html5Icon from "/public/assets/html5Icon.svg";
-import css3Icon from "/public/assets/css3Icon.svg";
-import nodejsIcon from "/public/assets/nodejsIcon.svg";
-import reactIcon from "/public/assets/react.svg";
-import framerMotion from "/public/assets/framerMotion.svg";
-import javascriptIcon from "/public/assets/javascriptIcon.svg";
-import typescriptIcon from "/public/assets/typescriptIcon.svg";
-import bootstrapIcon from "/public/assets/bootstrapIcon.svg";
-import tailwindIcon from "/public/assets/tailwindIcon.svg";
-import mysqlIcon from "/public/assets/mysqlcon.svg";
-import expressjsIcon from "/public/assets/expressjsIcon.svg";
+import html5Icon from "/public/html5Icon.svg";
+import css3Icon from "/public/css3Icon.svg";
+import nodejsIcon from "/public/nodejsIcon.svg";
+import reactIcon from "/public/react.svg";
+import framerMotion from "/public/framerMotion.svg";
+import javascriptIcon from "/public/javascriptIcon.svg";
+import typescriptIcon from "/public/typescriptIcon.svg";
+import bootstrapIcon from "/public/bootstrapIcon.svg";
+import tailwindIcon from "/public/tailwindIcon.svg";
+import mysqlIcon from "/public/mysqlcon.svg";
+import expressjsIcon from "/public/expressjsIcon.svg";
 
 export default function Skills() {
   const icons = [

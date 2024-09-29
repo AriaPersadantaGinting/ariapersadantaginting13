@@ -141,7 +141,7 @@ const NavbarPortofolioNew = (props) => {
         >
           <img
             id="btn"
-            src="/public/assets/bg11.webp"
+            src="/public/bg11.webp"
             className="w-8 h-8 lg:w-10 lg:h-10 md:w-8 md:h-8  rounded-md mr-2 lg:mr-2 md:mr-2 sm:mr-2"
             alt=""
           />
