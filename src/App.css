@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+}
+
+.layer1 {
+  width: 38rem;
+  /* background-color: rgb(20, 2, 55); */
+}
+
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-50rem);
+    /* opacity: -100; */
+  }
+  15% {
+    opacity: 20;
+  }
+  30% {
+    opacity: 40;
+  }
+  50% {
+    opacity: 60;
+  }
+  75% {
+    opacity: 100;
+  }
+  100% {
+    transform: translateX(60rem);
+    opacity: 0;
+  }
+}
+
+.animate {
+  animation: leftToRight 30s linear infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* index.css atau file CSS terpisah */
+/* styles.css atau file CSS global Anda */
+.perspective-1000 {
+  perspective: 1000px; /* Menentukan jarak pandang untuk efek 3D */
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d; /* Menyimpan transformasi 3D dari elemen anak */
+}
+
+.backface-hidden {
+  backface-visibility: hidden; /* Menyembunyikan sisi belakang saat card diputar */
+}
+
+.rotateY-180 {
+  transform: rotateY(180deg); /* Memutar card 180 derajat untuk sisi belakang */
+}
