@@ -198,7 +198,7 @@ const fetchUpdateSkill = async (skillId, data) => {
 
 const fetchPostContact = async (data, callback) => {
   const response = await axios
-    .post("http://localhost:3000/api/dg-portfolio/contact-me", data)
+    .post("https://dgportfolio.vercel.app/api/dg-portfolio/contact-me", data)
     .then((res) => {
       console.info(res.data.data);
       callback(true, res.data.data);
