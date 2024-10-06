@@ -3,7 +3,7 @@ import axios from "axios";
 const postDataRegister = async (data) => {
   try {
     const result = await axios.post(
-      "http://localhost:3000/api/dg-portofolio/users",
+      "http://localhost:3000/api/dg-portfolio/users",
       data
     );
     return result;
@@ -14,7 +14,7 @@ const postDataRegister = async (data) => {
 
 const postDataLogin = async (data, callback) => {
   const result = await axios
-    .post("http://localhost:3000/api/dg-portofolio/users/login", data)
+    .post("http://localhost:3000/api/dg-portfolio/users/login", data)
     .then((res) => {
       console.info(res.data.data.token);
       callback(true, res.data.data.token);
@@ -28,7 +28,7 @@ const postDataLogin = async (data, callback) => {
 
 const getDataUser = async (callback) => {
   const result = await axios
-    .get(" http://localhost:3000/api/dg-portofolio/users/current", {
+    .get(" http://localhost:3000/api/dg-portfolio/users/current", {
       headers: {
         Authorization: localStorage.getItem("token"),
       },
@@ -52,7 +52,7 @@ const updateDataUser = async (data) => {
     }
 
     const response = await axios.patch(
-      "http://localhost:3000/api/dg-portofolio/users/current",
+      "http://localhost:3000/api/dg-portfolio/users/current",
       data,
       {
         headers: {
@@ -78,7 +78,7 @@ const fetchCreateProject = async (data) => {
     }
 
     const response = await axios.post(
-      "http://localhost:3000/api/dg-portofolio/projects",
+      "http://localhost:3000/api/dg-portfolio/projects",
       data,
       {
         headers: {
@@ -97,7 +97,7 @@ const fetchCreateProject = async (data) => {
 const fetchAllProject = async (callback) => {
   try {
     const response = await axios.get(
-      `http://localhost:3000/api/dg-portofolio/projects`
+      `https://dgportfolio.vercel.app/api/dg-portfolio/projects`
     );
     callback(response.data.data);
   } catch (error) {
@@ -115,7 +115,7 @@ const fetchUpdateProject = async (projectId, data) => {
     }
 
     const response = await axios.put(
-      `http://localhost:3000/api/dg-portofolio/projects/${projectId}`,
+      `http://localhost:3000/api/dg-portfolio/projects/${projectId}`,
       data,
       {
         headers: {
@@ -142,7 +142,7 @@ const fetchCreateSkill = async (data) => {
     }
 
     const response = await axios.post(
-      "http://localhost:3000/api/dg-portofolio/skills",
+      "http://localhost:3000/api/dg-portfolio/skills",
       data,
       {
         headers: {
@@ -161,7 +161,7 @@ const fetchCreateSkill = async (data) => {
 const fetchAllSkill = async (callback) => {
   try {
     const response = await axios.get(
-      `http://localhost:3000/api/dg-portofolio/skills`
+      `https://dgportfolio.vercel.app/api/dg-portfolio/skills`
     );
     callback(response.data.data);
   } catch (error) {
@@ -179,7 +179,7 @@ const fetchUpdateSkill = async (skillId, data) => {
     }
 
     const response = await axios.put(
-      `http://localhost:3000/api/dg-portofolio/skills/${skillId}`,
+      `http://localhost:3000/api/dg-portfolio/skills/${skillId}`,
       data,
       {
         headers: {
@@ -198,7 +198,7 @@ const fetchUpdateSkill = async (skillId, data) => {
 
 const fetchPostContact = async (data, callback) => {
   const response = await axios
-    .post("http://localhost:3000/api/dg-portofolio/contact-me", data)
+    .post("http://localhost:3000/api/dg-portfolio/contact-me", data)
     .then((res) => {
       console.info(res.data.data);
       callback(true, res.data.data);
