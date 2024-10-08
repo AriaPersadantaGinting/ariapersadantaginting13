@@ -56,7 +56,7 @@ function LoadingScreen() {
   const loadData = [
     {
       animate: "animate2",
-      style: "bg-gradient-to-r from-[#7303c0] to-[#fdeff9]",
+      style: "bg-gradient-to-r from-[#7303c0] to-[#B770F5]",
       style2: "bg-gradient-to-r from-[#F7971E] to-[#FFD200]",
       style3: "bg-gradient-to-r from-[#56ab2f] to-[#a8e063]",
       style4: "bg-gradient-to-r from-[#e52d27] to-[#b31217]",
@@ -64,7 +64,7 @@ function LoadingScreen() {
     },
     {
       animate: "animate3",
-      style: "bg-gradient-to-r from-[#fdeff9] to-[#7303c0]",
+      style: "bg-gradient-to-r from-[#B770F5] to-[#7303c0]",
       style2: "bg-gradient-to-r from-[#FFD200] to-[#F7971E]",
       style3: "bg-gradient-to-r from-[#a8e063] to-[#56ab2f]",
       style4: "bg-gradient-to-r from-[#b31217] to-[#e52d27]",
@@ -72,7 +72,7 @@ function LoadingScreen() {
     },
     {
       animate: "animate2",
-      style: "bg-gradient-to-r from-[#7303c0] to-[#fdeff9]",
+      style: "bg-gradient-to-r from-[#7303c0] to-[#B770F5]",
       style2: "bg-gradient-to-r from-[#F7971E] to-[#FFD200]",
       style3: "bg-gradient-to-r from-[#56ab2f] to-[#a8e063]",
       style4: "bg-gradient-to-r from-[#e52d27] to-[#b31217]",
@@ -80,7 +80,7 @@ function LoadingScreen() {
     },
     {
       animate: "animate3",
-      style: "bg-gradient-to-r from-[#fdeff9] to-[#7303c0]",
+      style: "bg-gradient-to-r from-[#B770F5] to-[#7303c0]",
       style2: "bg-gradient-to-r from-[#FFD200] to-[#F7971E]",
       style3: "bg-gradient-to-r from-[#a8e063] to-[#56ab2f]",
       style4: "bg-gradient-to-r from-[#b31217] to-[#e52d27]",
