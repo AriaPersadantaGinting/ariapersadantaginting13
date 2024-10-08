@@ -76,7 +76,7 @@ const AboutSection2 = () => {
             <h2 className="lg:text-[2.6rem] md:text-[2.6rem] sm:text-[2.6rem] text-[2.4rem] tracking-tight mb-4 font-suse py-3 bg-clip-text text-transparent bg-gradient-to-r from-[#F7971E] to-[#FFD200]">
               Approach And Philosophy
             </h2>
-            <p className="mb-8">
+            <p className="mb-4">
               Halo, saya Aria Persadanta Ginting, biasa dipanggil Danta. Saya
               tinggal di Medan dan saat ini sedang menempuh studi di jurusan
               Manajemen Bisnis di sebuah universitas swasta, sudah memasuki
@@ -85,16 +85,16 @@ const AboutSection2 = () => {
               sesekali menikmati waktu nongkrong seperti anak muda pada umumnya.
             </p>
             <p>
-              Saya mulai mengenal dunia pemrograman sekitar setahun yang lalu,
-              berkat sahabat saya yang sering bercerita dan menunjukkan
-              project-project buatannya. Rasa penasaran pun tumbuh—bagaimana
-              sebuah website dan aplikasi dibuat? Akhirnya, daripada
-              menghabiskan malam hanya bermain Valorant, saya memutuskan untuk
-              mempelajari pemrograman. Lambat laun, rutinitas ini semakin
-              menarik bagi saya. Kini, saya bisa menghabiskan 5-8 jam setiap
-              malam untuk belajar. Pemrograman menjadi hal ketiga, selain gym
-              dan bermain game, yang membuat saya betah dan terus ketagihan
-              melakukannya.
+              Saya percaya bahwa setiap proses pembelajaran adalah investasi
+              waktu dan usaha. Dalam pemrograman, saya menerapkan pendekatan
+              bertahap, di mana saya belajar dengan memecah masalah menjadi
+              bagian kecil, lalu menyelesaikannya satu per satu. Filosofi saya
+              adalah bahwa kesalahan adalah bagian penting dan pembelajaran, dan
+              saya selalu berusaha untuk tidak takut mencoba hal baru meski
+              berisiko gagal. Selain itu, saya meyakini keseimbangan antara
+              disiplin dan fleksibilitas, di mana saya menyisihkan waktu untuk
+              belajar dengan teratur, tetapi tetap memberi ruang untuk
+              eksplorasi kreatif dan bersenang-senang.
             </p>
           </motion.article>
         </div>
