@@ -15,7 +15,12 @@ const ContactLayouts = () => {
       <NavbarPortofolioNew style="bg-gradient-to-r from-[#1CD8D2]  to-[#93EDC7]"></NavbarPortofolioNew>
       <main className="h-[90rem]">
         <CircleScroll style="text-[#1CD8D2]" />
-        <LoadingScreen />
+        <LoadingScreen
+          style="lg:text-[12rem] md:text-[11rem] sm:text-[8.5rem] text-[6rem] lg:top-[8rem] md:top-[9rem] sm:top-[9rem] top-[11rem] lg:left-[18vw] md:left-[13vw] sm:left-[13vw] left-[9vw] tracking-widest"
+          style2="lg:text-9xl md:text-9xl sm:text-9xl text-8xl lg:top-[23rem] md:top-[22.5rem] sm:top-[22.5rem] top-[20rem] lg:left-[38vw] md:left-[36vw] sm:left-[30vw] left-[26vw]"
+        >
+          Connect
+        </LoadingScreen>
         <ContactSection1 />
         <ContactSection2 />
         <FooterSection

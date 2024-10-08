@@ -1,8 +1,10 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
 
-function LoadingScreen() {
+function LoadingScreen(props) {
+  const { children, style, style2 } = props;
   const [count, setCount] = useState(0);
   const location = useLocation();
   useEffect(() => {
@@ -119,8 +121,14 @@ function LoadingScreen() {
         initial={{ opacity: 1 }}
         animate={count === 100 ? "animate4" : ""}
         variants={variants}
-        className="absolute text-black font-Protest lg:text-9xl md:text-8xl sm:text-[11vw] text-6xl top-[16rem]  lg:left-[16.5vw] md:left-[20vw] sm:left-[15vw] left-[12vw] "
-      >{`Loading ${count}%`}</motion.h1>
+        className={`absolute text-black font-Protest ${style}`}
+      >{`${children}`}</motion.h1>
+      <motion.span
+        initial={{ opacity: 1 }}
+        animate={count === 100 ? "animate4" : ""}
+        variants={variants}
+        className={`absolute text-black font-Protest ${style2}`}
+      >{`${count}%`}</motion.span>
     </motion.aside>
   );
 }

@@ -17,7 +17,12 @@ const SkillLayouts = () => {
       <NavbarPortofolioNew style="bg-gradient-to-r from-[#e52d27] to-[#b31217]"></NavbarPortofolioNew>
       <main className="h-[100rem]">
         <CircleScroll style="text-[#e52d27]" />
-        <LoadingScreen />
+        <LoadingScreen
+          style="lg:text-[12rem] md:text-[11rem] sm:text-[8.5rem] text-[6rem] lg:top-[8rem] md:top-[9rem] sm:top-[9rem] top-[11rem] lg:left-[12.5vw] md:left-[8vw] sm:left-[6vw] left-[2vw] tracking-widest"
+          style2="lg:text-9xl md:text-9xl sm:text-9xl text-8xl lg:top-[23rem] md:top-[22.5rem] sm:top-[22.5rem] top-[20rem] lg:left-[38vw] md:left-[36vw] sm:left-[25vw] left-[30vw]"
+        >
+          Expertise
+        </LoadingScreen>
         <SkillSection1 />
         <SkillSection2 />
         <SkillSection3 />

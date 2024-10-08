@@ -16,7 +16,12 @@ const ProjectLayouts = () => {
       <NavbarPortofolioNew style="bg-gradient-to-r from-[#56ab2f] to-[#a8e063]"></NavbarPortofolioNew>
       <main className="h-[100rem]">
         <CircleScroll style="text-[#56ab2f]" />
-        <LoadingScreen />
+        <LoadingScreen
+          style="lg:text-[12rem] md:text-[11rem] sm:text-[8.5rem] text-[6rem] lg:top-[9rem] md:top-[9rem] sm:top-[9rem] top-[11rem] lg:left-[15vw] md:left-[12vw] sm:left-[10.5vw] left-[7vw] tracking-widest"
+          style2="lg:text-9xl md:text-9xl sm:text-9xl text-8xl lg:top-[23rem] md:top-[22.5rem] sm:top-[22.5rem] top-[20rem] lg:left-[38vw] md:left-[36vw] sm:left-[30vw] left-[30vw]"
+        >
+          Creation
+        </LoadingScreen>
         <ProjectSection1 />
         <ProjectSection2 />
         <ContactSection
