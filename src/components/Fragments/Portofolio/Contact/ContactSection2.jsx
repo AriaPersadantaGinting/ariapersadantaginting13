@@ -43,7 +43,7 @@ const ContactSection2 = () => {
           <div className="bg-[rgba(61,58,60,0.5)] flex lg:w-[15.5rem] md:w-[15.5rem] md:mb-3 py-3 rounded-xl sm:w-[15.5rem] sm:mb-3 mb-3 ml-2">
             <img
               className="w-5 h-5 mt-1 lg:ml-6 md:ml-6 sm:ml-6 ml-3 mr-1"
-              src="/src/assets/phone.svg"
+              src="/phone.svg"
               alt=""
             />
             whatsapp: 082168470920
@@ -51,7 +51,7 @@ const ContactSection2 = () => {
           <div className="bg-[rgba(61,58,60,0.5)] flex lg:w-[15.5rem] lg:ml-2 md:w-[15.5rem] md:mb-3 md:ml-2 sm:w-[15.5rem] sm:mb-3 sm:ml-2 mb-3 w-[14rem] ml-2 py-3 rounded-xl">
             <img
               className="w-5 h-5 mt-1 lg:ml-8 md:ml-8 sm:ml-8 ml-3  mr-1"
-              src="/src/assets/number.svg"
+              src="/number.svg"
               alt=""
             />
             number: 082168470920
@@ -59,7 +59,7 @@ const ContactSection2 = () => {
           <div className="bg-[rgba(61,58,60,0.5)] flex lg:w-[19rem] lg:ml-2 md:w-[19rem] ml-2 m:w-[19rem] w-[17.5rem] mb-3 py-3 h-12 rounded-xl">
             <img
               className="w-5 h-5 mt-1 ml-3 mr-1 md:ml-6 sm:ml-6"
-              src="/src/assets/email.svg"
+              src="/email.svg"
               alt=""
             />
             email: persadanta13@gmail.com
